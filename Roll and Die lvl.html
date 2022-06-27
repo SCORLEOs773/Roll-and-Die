@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Roll and Die.css">
+    <title>Roll and Die Index</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+
+<body style="text-align:center">
+
+
+    <h1 style="transform:translate(570px, -300px)">Choose Game Mode</h1>
+
+
+    <div class="lvl">
+        <a href="Roll and Die Time Trial.html"><button class="lvlBtn" style="font-family:Verdana, Geneva, Tahoma, sans-serif">Time Trial</button></a>
+        <br><br><br><br><br><br><br><br>
+        <a href="Roll and Die BeatScore.html"><button class="lvlBtn" style="font-family:Verdana, Geneva, Tahoma, sans-serif">Beat the Score</button></a>
+        <br><br><br><br><br><br><br><br>
+        <a href="Roll and Die Rounds.html"><button class="lvlBtn" style="font-family:Verdana, Geneva, Tahoma, sans-serif">Rounds</button></a>
+    </div>
+
+    <div class="instructions" style="transform: translate(-180px);">
+
+        <button class="instBtn"><a href="#modal">Instructions</a> </button>
+
+        <div id="modal">
+
+            <div class="inst">
+                <a href="#" title="Close" class="modal-close">Close</a>
+                <h2>INSTRUCTIONS</h2>
+                <span class="general">
+                <ol>
+                    <li>The aim of the game is to more points than the opponent.</li> 
+                    <li>The active player will roll the die and a random number from <strong>1 to 6</strong> will appear on the die, which will be treated as your current score.</li> 
+                    <li>The current score will add up, depending upon how many times you roll.</li> 
+                    <li>On clicking on <strong>'Hold'</strong>  button, your summed up current score will be added to your total score, and your turn will end.</li>
+                    <li>But if a player rolls a <strong>'1'</strong>  on the die, the player turn ends, loosing all the accumulated points. Hence, <strong>'1'</strong>  means <strong>Danger!</strong>.</li>
+                    <li>The player with the <strong>maximum</strong>  points at the end of the game will be declared <strong>'Winner'</strong>.</li>
+                </ol>
+            </span>
+                <span class="timetrial">
+                <h3>Time Trial</h3>
+                <ol>
+                    <li>In this game mode, apart of each other, you also have to race against time.</li>
+                    <li>The <strong>Time Limit</strong> can be set in the begining of the game.</li>
+                </ol>
+            </span>
+                <span class="beatTheScore">
+                <h3>Beat The Score</h3>
+                <ol>
+                    <li>In this game mode, players are required to acquire to get a minimum preset score before the opponent to win.</li>
+                </ol>
+            </span>
+                <span class="rounds">
+                <h3>Rounds</h3>
+                <ol>
+                    <li>In this game mode, the players have predecided number of turns/rounds.</li>
+                    <li>Players need to get more points than the opponent in the set number of rounds to win</li>
+                    <li>The players can only roll max 3 times in a singlr round.</li>
+                    <li>In this game mode rolling a '1' does not result in loosing all the accumulated points. '1' is a safe number.</li>
+                    <li>But trying to roll more than 3 times will result in an automatic change of turns.</li>
+                </ol>
+            </span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
