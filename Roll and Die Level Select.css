@@ -1,0 +1,124 @@
+body {
+    overflow: hidden;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    color: #333;
+    background-image: linear-gradient(to top left, #d6dd4d 30%, #68ef47 100%);
+    background-size: cover;
+}
+
+.heading {
+    margin: 30px 0px 0px 0px;
+    font-size: 26px;
+    font-family: 'Stylish', sans-serif;
+}
+
+.heading h5 {
+    text-decoration: overline underline;
+    margin: -30px 0px 30px 0px;
+    text-transform: uppercase;
+}
+
+.makerInfo {
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.choose {
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+.header {
+    text-align: center;
+}
+
+.levels {
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+}
+
+.btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #444;
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 400;
+    transition: all 0.2s;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 15px 20px 15px 20px;
+    margin: 40px 0px 0px 0px;
+    border-radius: 50rem;
+    box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+
+.instructionBtn {
+    margin: 50px 0px 0px 660px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #444;
+    background: none;
+    border: none;
+    font-family: inherit;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 400;
+    transition: all 0.2s;
+    background-color: white;
+    background-color: rgb(139, 225, 108);
+    backdrop-filter: blur(10px);
+    padding: 15px 20px 15px 20px;
+    box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+
+.instructionBtn a {
+    color: #176985;
+    text-decoration: none;
+}
+
+.instructions {
+    text-align: center;
+    /* display: none; */
+    /* visibility: hidden; */
+    transform: translateZ(100px);
+    position: relative;
+    background-color: rgb(230, 221, 102);
+    padding: 1em 2em;
+}
+
+.instructions {
+    margin: 0px 0px 60px 0px;
+}
+
+#modal {
+    /* transform: translateY(-20px); */
+    font-size: large;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, .5); */
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-close {
+    position: absolute;
+    top: -30px;
+    right: 0;
+}
+
+#modal:not(:target) {
+    visibility: hidden;
+    opacity: 0;
+}
